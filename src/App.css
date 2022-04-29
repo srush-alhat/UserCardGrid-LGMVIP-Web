@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+  background-image: linear-gradient(to left, #5f0d3c, #711953, #80276c, #8e3688, #9847a6, #a94dad, #ba54b4, #cb5bbb, #e15daa, #f06499, #f8708a, #fc7e7e);
+  font-family:'poppins',sans-serif;
+}
+
+.App {
+  text-align: center;
+font-size: 1.3rem;
+color: #fff;
+}
+
+.App li{
+ list-style: none;
+}
+
+.App button{
+  font-size: 1.2rem;
+  /* background-image: linear-gradient(to bottom, #23092f, #4b134f, #7b196d, #b11a85, #eb1298); */
+background: #23092F;
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.App button:hover{
+  background: rgb(5, 5, 78)
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
